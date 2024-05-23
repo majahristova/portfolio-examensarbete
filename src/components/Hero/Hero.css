@@ -1,0 +1,33 @@
+.hero-background {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 90vh;
+  background: linear-gradient(
+    135deg,
+    rgba(75, 0, 130, 1) 0%,
+    rgba(238, 130, 238, 1) 100%
+  );
+  transition: background 0.5s ease-out;
+}
+
+.Profile {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 40px;
+  color: #e4d9d9;
+  width: 500px;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 16px;
+  transform: translateY(-50px);
+}
+
+.hero-description {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0;
+  transform: translateY(50px);
+}

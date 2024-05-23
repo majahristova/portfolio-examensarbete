@@ -1,0 +1,16 @@
+[
+  {
+    "company": "Kruso",
+    "position": "Frontend developer",
+    "startDate": "February 2024",
+    "endDate": "May 2024",
+    "description": "At Kruso, I've worked on exciting projects like creating a design system for Alfa Laval and assisting with checkout validation for String Furniture's website. These experiences have deepened my knowledge of advanced TypeScript and React, enhanced my ability to create reusable components, and taught me to make websites accessibility-compliant."
+  },
+  {
+    "company": "Frontwalker",
+    "position": "Junior Web developer",
+    "startDate": "November 2023",
+    "endDate": "February 2024",
+    "description": "At Frontwalker, I led the development of websites for coding courses for kids and for the cities of Uppsala and Stockholm. I handled design, development, testing, and tool integration, using WordPress and Breakdance as CMS.    "
+  }
+]

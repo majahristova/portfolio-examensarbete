@@ -1,0 +1,24 @@
+.vertical-timeline-element--work.left .vertical-timeline-element-content {
+  transform: translateX(-50%);
+}
+
+.vertical-timeline-element--work.right .vertical-timeline-element-content {
+  transform: translateX(50%);
+}
+
+.vertical-timeline-element--work.right
+  .vertical-timeline-element-content-arrow {
+  right: auto;
+  left: -7px;
+  transform: rotateY(180deg);
+}
+
+.vertical-timeline-element--work.left .vertical-timeline-element-icon {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.vertical-timeline-element--work.right .vertical-timeline-element-icon {
+  right: 50%;
+  transform: translateX(50%);
+}
