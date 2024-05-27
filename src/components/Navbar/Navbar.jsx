@@ -45,7 +45,7 @@ function Navbar() {
               to="competence"
               smooth
               spy
-              offset={-120}
+              offset={-300}
               className="menu-item"
               onClick={toggleMenu}
             >
@@ -59,7 +59,7 @@ function Navbar() {
               to="work-exp"
               smooth
               spy
-              offset={-130}
+              offset={-20}
               className="menu-item"
               onClick={toggleMenu}
             >

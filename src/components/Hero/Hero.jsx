@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <div className="hero-background">
-      <div className="Profile">
+      <div className="hero-container">
         <h1 className="hero-title">Hi, I am Maja</h1>
         <p className="hero-description">
           A driven frontend developer who is passionate about creating

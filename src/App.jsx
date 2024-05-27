@@ -13,6 +13,7 @@ const App = () => {
         <div id="hero">
           <Hero />
         </div>
+        <h1 className="headingCompetence"> Competence</h1>
         <div id="competence">
           <Competence />
         </div>

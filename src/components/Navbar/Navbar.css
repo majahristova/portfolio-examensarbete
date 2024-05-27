@@ -1,6 +1,6 @@
 .nav-wrapper {
   background: rgba(0, 0, 0, 0.1);
-  padding: 8px 0;
+  padding: 0 32px;
   position: sticky;
   top: 0;
   z-index: 30;
@@ -17,7 +17,7 @@
 }
 
 .logo {
-  width: 20px;
+  width: 100px;
 }
 
 .nav-content ul {
@@ -33,7 +33,7 @@
 
 .menu-item {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   color: #fff;
   position: relative;
@@ -57,7 +57,7 @@
   display: none;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 480px) {
   .logo {
     width: 30px;
     height: auto;
@@ -65,6 +65,7 @@
 
   .menu-btn {
     display: block;
+    margin-right: 10px;
   }
 
   .nav-content ul {
@@ -86,26 +87,5 @@
   .nav-content li {
     margin: 1px 0;
     text-align: center;
-  }
-}
-
-@media (max-width: 1440px) {
-  .logo {
-    width: 40px;
-  }
-
-  .nav-content ul {
-    gap: 0;
-  }
-
-  .nav-content li {
-    margin: 0 16px;
-  }
-
-  .menu-item {
-    font-size: 14px;
-  }
-  .nav-wrapper {
-    padding: 0 32px;
   }
 }

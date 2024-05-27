@@ -38,7 +38,6 @@ const WordCloud = () => {
 
   return (
     <div className="competence-container">
-      <h1>Competence</h1>
       <div className="word-cloud">
         {words.map((word, index) => (
           <span
